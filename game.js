@@ -191,12 +191,12 @@ StartGame();
 
 
 
-setInterval(function () {
-    document.getElementById('posY').innerHTML = "Y: " + forceOfGravity;
-    document.getElementById('planetsRandom').innerHTML = "random of planets: " + randomPlanet;
-    document.getElementById('planetsY').innerHTML = "planet Y: " + randomPlanetTop;
-    document.getElementById('bulIntegration').innerHTML = "bullet integration X: " + bull;
-}, 10);
+//setInterval(function () {
+//    document.getElementById('posY').innerHTML = "Y: " + forceOfGravity;
+//    document.getElementById('planetsRandom').innerHTML = "random of planets: " + randomPlanet;
+//    document.getElementById('planetsY').innerHTML = "planet Y: " + randomPlanetTop;
+//    document.getElementById('bulIntegration').innerHTML = "bullet integration X: " + bull;
+//}, 10);
 
 
 
