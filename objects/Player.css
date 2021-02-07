@@ -1,0 +1,18 @@
+#player {
+    width: 192px;
+    height: 177px;
+    background-image: url("mainObjects/warship.png");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    top: 300px;
+    left: 60px;
+}
+
+#bullet {
+    width: 52px;
+    height: 10px;
+    background-image: url('mainObjects/bullet.png');
+    position: absolute;
+    display: none;
+    left: 0;
+}

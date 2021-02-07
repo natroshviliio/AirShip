@@ -1,0 +1,15 @@
+
+#planets {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:contain;
+    right: -800px;
+    opacity: 0.6;
+    animation: bluePlanet 25s infinite linear;
+    z-index: -1 !important;
+}
+
+@keyframes bluePlanet {
+    0% {right: -800px;}
+    100%{right: 100%;}
+}
